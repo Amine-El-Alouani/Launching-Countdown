@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(7, 7, 160);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading{
+    position: absolute;
+    top: 10%;
+    text-align: center;
+}
+
+.heading p{
+    font-size: 1.4em;
+    line-height: 0;
+}
+
+.heading h2{
+    font-size: 3.5em;
+    line-height: 0;
+}
+
+.timer{
+    margin: 15px 30px;
+    width: 120px;
+    background-color: rgb(23, 23, 119);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 15px 10px 30px rgb(33, 29, 49);
+    cursor: pointer;
+}
+
+.timer p{
+    font-size: 45px;
+    margin: 25px 8px;
+}
+
+.timer h6{
+    margin: 0;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #000;
+}
